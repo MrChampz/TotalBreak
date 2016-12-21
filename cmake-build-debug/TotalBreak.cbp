@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TotalBreak"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TotalBreak">
+				<Option output="/home/mrchampz/ClionProjects/TotalBreak/bin/TotalBreak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrchampz/ClionProjects/TotalBreak/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/mrchampz/ClionProjects/TotalBreak/Header"/>
+					<Add directory="/home/mrchampz/ClionProjects/TotalBreak/Dependencies/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 TotalBreak"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TotalBreak/fast">
+				<Option output="/home/mrchampz/ClionProjects/TotalBreak/bin/TotalBreak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrchampz/ClionProjects/TotalBreak/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/mrchampz/ClionProjects/TotalBreak/Header"/>
+					<Add directory="/home/mrchampz/ClionProjects/TotalBreak/Dependencies/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 TotalBreak/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/Game.h">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/ResourceManager.h">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/Shader.h">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/Texture.h">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Game.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Program.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/ResourceManager.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Shader.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Texture.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
