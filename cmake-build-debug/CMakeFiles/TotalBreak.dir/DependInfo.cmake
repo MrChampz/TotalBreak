@@ -5,9 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mrchampz/ClionProjects/TotalBreak/Source/Game.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/Game.cpp.o"
+  "/home/mrchampz/ClionProjects/TotalBreak/Source/GameObject.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o"
   "/home/mrchampz/ClionProjects/TotalBreak/Source/Program.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/Program.cpp.o"
   "/home/mrchampz/ClionProjects/TotalBreak/Source/ResourceManager.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o"
   "/home/mrchampz/ClionProjects/TotalBreak/Source/Shader.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/Shader.cpp.o"
+  "/home/mrchampz/ClionProjects/TotalBreak/Source/SpriteRenderer.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o"
   "/home/mrchampz/ClionProjects/TotalBreak/Source/Texture.cpp" "/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles/TotalBreak.dir/Source/Texture.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

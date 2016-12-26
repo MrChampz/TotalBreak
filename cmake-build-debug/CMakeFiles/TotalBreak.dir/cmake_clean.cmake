@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TotalBreak.dir/Source/Shader.cpp.o"
   "CMakeFiles/TotalBreak.dir/Source/Texture.cpp.o"
   "CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o"
+  "CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o"
+  "CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o"
   "../bin/TotalBreak.pdb"
   "../bin/TotalBreak"
 )

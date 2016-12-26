@@ -150,6 +150,33 @@ Source/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/Game.cpp.s
 .PHONY : Source/Game.cpp.s
 
+Source/GameObject.o: Source/GameObject.cpp.o
+
+.PHONY : Source/GameObject.o
+
+# target to build an object file
+Source/GameObject.cpp.o:
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o
+.PHONY : Source/GameObject.cpp.o
+
+Source/GameObject.i: Source/GameObject.cpp.i
+
+.PHONY : Source/GameObject.i
+
+# target to preprocess a source file
+Source/GameObject.cpp.i:
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.i
+.PHONY : Source/GameObject.cpp.i
+
+Source/GameObject.s: Source/GameObject.cpp.s
+
+.PHONY : Source/GameObject.s
+
+# target to generate assembly for a file
+Source/GameObject.cpp.s:
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.s
+.PHONY : Source/GameObject.cpp.s
+
 Source/Program.o: Source/Program.cpp.o
 
 .PHONY : Source/Program.o
@@ -231,6 +258,33 @@ Source/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/Shader.cpp.s
 .PHONY : Source/Shader.cpp.s
 
+Source/SpriteRenderer.o: Source/SpriteRenderer.cpp.o
+
+.PHONY : Source/SpriteRenderer.o
+
+# target to build an object file
+Source/SpriteRenderer.cpp.o:
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o
+.PHONY : Source/SpriteRenderer.cpp.o
+
+Source/SpriteRenderer.i: Source/SpriteRenderer.cpp.i
+
+.PHONY : Source/SpriteRenderer.i
+
+# target to preprocess a source file
+Source/SpriteRenderer.cpp.i:
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.i
+.PHONY : Source/SpriteRenderer.cpp.i
+
+Source/SpriteRenderer.s: Source/SpriteRenderer.cpp.s
+
+.PHONY : Source/SpriteRenderer.s
+
+# target to generate assembly for a file
+Source/SpriteRenderer.cpp.s:
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.s
+.PHONY : Source/SpriteRenderer.cpp.s
+
 Source/Texture.o: Source/Texture.cpp.o
 
 .PHONY : Source/Texture.o
@@ -270,6 +324,9 @@ help:
 	@echo "... Source/Game.o"
 	@echo "... Source/Game.i"
 	@echo "... Source/Game.s"
+	@echo "... Source/GameObject.o"
+	@echo "... Source/GameObject.i"
+	@echo "... Source/GameObject.s"
 	@echo "... Source/Program.o"
 	@echo "... Source/Program.i"
 	@echo "... Source/Program.s"
@@ -279,6 +336,9 @@ help:
 	@echo "... Source/Shader.o"
 	@echo "... Source/Shader.i"
 	@echo "... Source/Shader.s"
+	@echo "... Source/SpriteRenderer.o"
+	@echo "... Source/SpriteRenderer.i"
+	@echo "... Source/SpriteRenderer.s"
 	@echo "... Source/Texture.o"
 	@echo "... Source/Texture.i"
 	@echo "... Source/Texture.s"

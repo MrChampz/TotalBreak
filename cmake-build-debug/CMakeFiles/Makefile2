@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug
 CMakeFiles/TotalBreak.dir/all:
 	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/depend
 	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target TotalBreak"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target TotalBreak"
 .PHONY : CMakeFiles/TotalBreak.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/TotalBreak.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TotalBreak.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TotalBreak.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/TotalBreak.dir/rule

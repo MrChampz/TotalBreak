@@ -177,13 +177,63 @@ CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o.provides: CMakeFiles/Tota
 CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o.provides.build: CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o
 
 
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o: CMakeFiles/TotalBreak.dir/flags.make
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o: ../Source/SpriteRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o -c /home/mrchampz/ClionProjects/TotalBreak/Source/SpriteRenderer.cpp
+
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrchampz/ClionProjects/TotalBreak/Source/SpriteRenderer.cpp > CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.i
+
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrchampz/ClionProjects/TotalBreak/Source/SpriteRenderer.cpp -o CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.s
+
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.requires:
+
+.PHONY : CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.requires
+
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.provides: CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.provides.build
+.PHONY : CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.provides
+
+CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.provides.build: CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o
+
+
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o: CMakeFiles/TotalBreak.dir/flags.make
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o: ../Source/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o -c /home/mrchampz/ClionProjects/TotalBreak/Source/GameObject.cpp
+
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrchampz/ClionProjects/TotalBreak/Source/GameObject.cpp > CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.i
+
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrchampz/ClionProjects/TotalBreak/Source/GameObject.cpp -o CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.s
+
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.requires:
+
+.PHONY : CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.requires
+
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.provides: CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TotalBreak.dir/build.make CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.provides.build
+.PHONY : CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.provides
+
+CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.provides.build: CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o
+
+
 # Object files for target TotalBreak
 TotalBreak_OBJECTS = \
 "CMakeFiles/TotalBreak.dir/Source/Program.cpp.o" \
 "CMakeFiles/TotalBreak.dir/Source/Game.cpp.o" \
 "CMakeFiles/TotalBreak.dir/Source/Shader.cpp.o" \
 "CMakeFiles/TotalBreak.dir/Source/Texture.cpp.o" \
-"CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o"
+"CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o" \
+"CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o" \
+"CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o"
 
 # External object files for target TotalBreak
 TotalBreak_EXTERNAL_OBJECTS =
@@ -193,13 +243,15 @@ TotalBreak_EXTERNAL_OBJECTS =
 ../bin/TotalBreak: CMakeFiles/TotalBreak.dir/Source/Shader.cpp.o
 ../bin/TotalBreak: CMakeFiles/TotalBreak.dir/Source/Texture.cpp.o
 ../bin/TotalBreak: CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o
+../bin/TotalBreak: CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o
+../bin/TotalBreak: CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o
 ../bin/TotalBreak: CMakeFiles/TotalBreak.dir/build.make
 ../bin/TotalBreak: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/TotalBreak: /usr/lib/x86_64-linux-gnu/libGL.so
 ../bin/TotalBreak: /usr/lib/x86_64-linux-gnu/libGLEW.so
 ../bin/TotalBreak: /usr/lib/x86_64-linux-gnu/libglfw.so.3.2
 ../bin/TotalBreak: CMakeFiles/TotalBreak.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/TotalBreak"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrchampz/ClionProjects/TotalBreak/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../bin/TotalBreak"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TotalBreak.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,6 +264,8 @@ CMakeFiles/TotalBreak.dir/requires: CMakeFiles/TotalBreak.dir/Source/Game.cpp.o.
 CMakeFiles/TotalBreak.dir/requires: CMakeFiles/TotalBreak.dir/Source/Shader.cpp.o.requires
 CMakeFiles/TotalBreak.dir/requires: CMakeFiles/TotalBreak.dir/Source/Texture.cpp.o.requires
 CMakeFiles/TotalBreak.dir/requires: CMakeFiles/TotalBreak.dir/Source/ResourceManager.cpp.o.requires
+CMakeFiles/TotalBreak.dir/requires: CMakeFiles/TotalBreak.dir/Source/SpriteRenderer.cpp.o.requires
+CMakeFiles/TotalBreak.dir/requires: CMakeFiles/TotalBreak.dir/Source/GameObject.cpp.o.requires
 
 .PHONY : CMakeFiles/TotalBreak.dir/requires
 

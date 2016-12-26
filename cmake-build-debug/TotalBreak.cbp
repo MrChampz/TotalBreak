@@ -93,16 +93,25 @@
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/Game.h">
 			<Option target="TotalBreak"/>
 		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/GameObject.h">
+			<Option target="TotalBreak"/>
+		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/ResourceManager.h">
 			<Option target="TotalBreak"/>
 		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/Shader.h">
 			<Option target="TotalBreak"/>
 		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/SpriteRenderer.h">
+			<Option target="TotalBreak"/>
+		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Header/Texture.h">
 			<Option target="TotalBreak"/>
 		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Game.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/GameObject.cpp">
 			<Option target="TotalBreak"/>
 		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Program.cpp">
@@ -112,6 +121,9 @@
 			<Option target="TotalBreak"/>
 		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Shader.cpp">
+			<Option target="TotalBreak"/>
+		</Unit>
+		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/SpriteRenderer.cpp">
 			<Option target="TotalBreak"/>
 		</Unit>
 		<Unit filename="/home/mrchampz/ClionProjects/TotalBreak/Source/Texture.cpp">

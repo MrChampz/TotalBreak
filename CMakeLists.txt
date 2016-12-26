@@ -24,6 +24,16 @@ file(GLOB SOURCE_FILES
         *.h
         )
 
-set(SOURCE_FILES Source/Program.cpp Source/Game.cpp Header/Game.h Source/Shader.cpp Header/Shader.h Source/Texture.cpp Header/Texture.h Source/ResourceManager.cpp Header/ResourceManager.h)
+set(
+        SOURCE_FILES
+        Source/Program.cpp
+        Source/Game.cpp Header/Game.h
+        Source/Shader.cpp Header/Shader.h
+        Source/Texture.cpp Header/Texture.h
+        Source/ResourceManager.cpp Header/ResourceManager.h
+        Source/SpriteRenderer.cpp Header/SpriteRenderer.h
+        Source/GameObject.cpp Header/GameObject.h
+        )
+
 add_executable(TotalBreak ${SOURCE_FILES})
 target_link_libraries (TotalBreak ${OPENGL_LIBRARIES} ${GLFW_LIBRARIES}  ${GLEW_LIBRARIES} GL glfw GLEW SOIL)
