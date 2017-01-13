@@ -29,8 +29,8 @@ public:
 	// Sets the current shader as active
 	Shader& Use();
 
-	// Compiles the shader from given souce code
-	// Note: geometry source code is optional
+	// Compiles the shader from given source code
+	// Note: geometry shader source code is optional
 	void Compile(const GLchar* vertexSource, const GLchar* fragmentSource, const GLchar* geometrySource = nullptr);
 
 	// Utility functions
